@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Filter Cardss</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1 class="heading">Filter ui cards via there profession</h1>
+            <div class="selection">
+                <form>
+                    <select name="profession" id="profession">
+                        <option class="optionGroup" value="profession" selected>Profession</option>
+                        <option value="developer">Developer</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <div class="profession-cards"></div>
+            </div>
+            <div class="fiter_btn">
+                <button class="btn" onclick="filter_cards()">Filter</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
